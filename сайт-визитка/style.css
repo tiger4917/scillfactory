@@ -1,0 +1,47 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    padding: 15px;
+}
+.header__nav{
+    
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.header__link{
+    text-decoration: none;
+    color: black;
+}
+.header__link:hover{
+    color: red;
+}
+.hero__wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+.info-block__title{
+    color: rgb(44, 44, 181);
+    font-family: 'Playpen Sans', cursive;
+    font-size: 50px;
+}
+.info-block__subtitle{
+    color: blueviolet;
+}
+.info-block__items{
+    font-style: italic; 
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.phones,.mail{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
